@@ -1,0 +1,64 @@
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f0f8ff;
+  padding: 20px;
+}
+
+.Header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NavBar a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.MainContent {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PersonSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.Person {
+  text-align: center;
+  margin: 0 15px;
+}
+
+.Person img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.ContactSection {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.SocialMediaLinks a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.Footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
